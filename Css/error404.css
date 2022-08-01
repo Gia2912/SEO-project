@@ -1,0 +1,27 @@
+.cases-links{
+ 	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+ .error-404{
+ 	width: 100%;
+ 	margin-left: 20%;
+ 	font-size: 80px;
+ 	font-weight: 800;
+ 	font-family: sans-serif;
+ }
+ .error-404-p{
+ 	color: black;
+ 	width: 100%;
+ 	margin-top: 30px;
+ 	margin-left: 40%;
+ 	font-weight: 300;
+ 	font-size: 18px;
+ 	font-family: sans-serif;
+ }
+
+.error404-img img{
+ 	height: auto;
+ 	width: 30%;
+ }

@@ -1,0 +1,74 @@
+html{
+	background-image: url('../BG.png');
+	background-size: 100%;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+*{
+	font-size: 18px;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+form{
+	width: 500px;
+	border: 2px solid #ccc;
+	padding: 30px;
+	background: #fff;
+	border-radius: 15px;
+}
+h2{
+	font-size: 2.4rem;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+input{
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+
+label{
+	color: #888;
+	padding: 10px;
+}
+
+p {
+	float: left;
+	display: inline-block;
+}
+a:hover{
+	color: darkcyan;
+}
+
+button{
+	float: right;
+	text-align: center;
+	padding: 10px 15px;
+	background-color: yellowgreen;
+	border: 5px solid yellowgreen;
+	color: forestgreen;
+	font-weight: 600;
+	border-radius: 20px;
+	margin-right: 10px;
+}
+button:hover{
+	color: darkslategrey;
+	background-color: lightsalmon;
+	border: 5px solid lightsalmon;
+}
+button:active{
+	color: darkcyan;
+	background-color: lightgoldenrodyellow;
+	border: 5px solid lightgoldenrodyellow;
+
+}
